@@ -1,3 +1,7 @@
+// Purpose: Testbench for the Traffic Light Controller FSM in Verilog.
+//          Simulates different car arrival patterns and monitors light outputs.
+
+
 `include "traffic.v"
 
 module tb1;
