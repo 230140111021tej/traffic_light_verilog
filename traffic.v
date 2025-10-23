@@ -1,3 +1,7 @@
+// Purpose: FSM-based Traffic Light Controller for highway and normal road.
+//          Changes lights based on car presence and clock input.
+
+
 module trafficlight(clock, in, hwy, normal);
     input clock, in;                // clock: system clock, in: car present on normal road
     output reg [2:0] hwy;           // hwy: traffic lights for highway [red, green, yellow]
