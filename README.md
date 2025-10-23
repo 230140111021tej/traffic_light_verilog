@@ -1,6 +1,6 @@
 # 🚦 Traffic Light Controller in Verilog HDL
 
-![Traffic State](traffic_view.jpeg)
+![Traffic State](images/traffic_view.jpeg)
 *Traffic Light State Visualization*
 
 ---
@@ -39,25 +39,25 @@ This project implements a **Traffic Light Controller** using a Finite State Mach
 ## Simulation & Waveforms
 
 **Traffic Light State Visualization:**  
-![Traffic State](traffic_view.jpeg)
+![Traffic State](images/traffic_view.jpeg)
 
 **Outer RTL Schematic:**  
-![Outer RTL Schematic](traffic_rtl_outer_view.jpeg)
+![Outer RTL Schematic](images/traffic_rtl_outer_view.jpeg)
 
 **RTL Schematic:**  
-![RTL Schematic](rtl_view.jpeg)
+![RTL Schematic](images/rtl_view.jpeg)
 
 **FSM Schematic:**  
-![FSM Schematic](schematic_view.jpeg)
+![FSM Schematic](images/schematic_view.jpeg)
 
 **GTKWave Output:**  
-![GTKWave](gtkwave_wave.jpeg)
+![GTKWave](images/gtkwave_wave.jpeg)
 
 **Icarus Verilog Testbench Result:**  
-![Icarus Output](iverilog_output.jpeg)
+![Icarus Output](images/iverilog_output.jpeg)
 
 **Xilinx ISim Simulation:**  
-![Xilinx Waveform](xilinx_ise_wave.jpeg)
+![Xilinx Waveform](images/xilinx_ise_wave.jpeg)
 
 ---
 
