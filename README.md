@@ -41,6 +41,9 @@ This project implements a **Traffic Light Controller** using a Finite State Mach
 **Traffic Light State Visualization:**  
 ![Traffic State](traffic_view.jpeg)
 
+**Outer RTL Schematic:**  
+![Outer RTL Schematic](traffic_rtl_outer_view.jpeg)
+
 **RTL Schematic:**  
 ![RTL Schematic](rtl_view.jpeg)
 
