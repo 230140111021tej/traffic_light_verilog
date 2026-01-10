@@ -1,6 +1,6 @@
 # 🚦 Traffic Light Controller in Verilog HDL
 
-![Traffic State](images/traffic_view.jpeg)  
+![Traffic State Visualization](images/traffic_view.jpeg)  
 *Traffic Light State Visualization*
 
 ---
@@ -17,7 +17,7 @@ A 5-state Finite State Machine (FSM) based traffic controller for highway and ma
 
 - [About](#about)
 - [Features](#features)
-- [Simulation Results](#simulation--results)
+- [Simulation & Results](#simulation--results)
 - [References](#references)
 - [How to Run](#how-to-run)
 - [Related Projects & Videos](#related-projects--videos)
@@ -47,17 +47,42 @@ Implements a **Traffic Light Controller** using FSM in Verilog HDL. Models traff
 
 ## Simulation & Results
 
-- All state transitions are fully validated.
-- **Waveforms & Schematics:**  
-  ![Traffic State](images/traffic_view.jpeg)  
-  ![GTKWave](images/gtkwave_wave.jpeg)  
-  ![Outer RTL Schematic](images/traffic_rtl_outer_view.jpeg)  
-  ![RTL Schematic](images/rtl_view.jpeg)  
-  ![FSM Schematic](images/schematic_view.jpeg)  
-  ![Icarus Output](images/iverilog_output.jpeg)  
-  ![Xilinx Waveform](images/xilinx_ise_wave.jpeg)
+**Figure 1: Traffic Light State Visualization**  
+![Traffic State](images/traffic_view.jpeg)
 
-  > The simulations confirm correct signal switching and state updates for all cases.
+&nbsp;
+
+**Figure 2: GTKWave Output**  
+![GTKWave Output](images/gtkwave_wave.jpeg)
+
+&nbsp;
+
+**Figure 3: Outer RTL Schematic**  
+![Outer RTL Schematic](images/traffic_rtl_outer_view.jpeg)
+
+&nbsp;
+
+**Figure 4: RTL Schematic**  
+![RTL Schematic](images/rtl_view.jpeg)
+
+&nbsp;
+
+**Figure 5: FSM Schematic**  
+![FSM Schematic](images/schematic_view.jpeg)
+
+&nbsp;
+
+**Figure 6: Icarus Verilog Testbench Output**  
+![Icarus Output](images/iverilog_output.jpeg)
+
+&nbsp;
+
+**Figure 7: Xilinx ISim Simulation Waveform**  
+![Xilinx Waveform](images/xilinx_ise_wave.jpeg)
+
+&nbsp;
+
+> The simulations confirm correct signal switching and state updates for all cases.
 
 ---
 
@@ -65,8 +90,13 @@ Implements a **Traffic Light Controller** using FSM in Verilog HDL. Models traff
 
 - [`traffic.v`](traffic.v) — Main FSM module
 - [`testbench.v`](testbench.v) — Testbench
-- [NPTEL: Digital Design (EE180)](https://onlinecourses.nptel.ac.in/noc25_ee180/preview)  
-- [Design & Implementation of Traffic Light Controller (paper)](https://ieeexplore.ieee.org/document/10156804)
+- **Academic Courses:**
+  - [NPTEL: Digital Design (EE180)](https://onlinecourses.nptel.ac.in/noc25_ee180/preview)
+  - [NPTEL: VLSI Design (CS155)](https://onlinecourses.nptel.ac.in/noc25_cs155/preview)
+  - [NPTEL: Digital Systems Design with HDL (CS94)](https://onlinecourses.nptel.ac.in/noc22_cs94/preview)
+- **Research Papers:**
+  - [Design and Implementation of Traffic Light Controller using Verilog](https://ieeexplore.ieee.org/document/10156804) *(good, FSM-based practical implementation)*
+  - [FPGA-Based Traffic Light Controller](https://ieeexplore.ieee.org/document/10838078) *(suitable for real hardware systems)*
 
 ---
 
