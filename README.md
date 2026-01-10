@@ -17,6 +17,11 @@
 
 ---
 
+- **Traffic Light Controller**  
+  [YouTube Demo](https://youtu.be/sOP0Q7eYFmA?si=7gRoLFyiltpx4Tni)
+
+  ---
+  
 ## About
 
 This project implements a **Traffic Light Controller** using a Finite State Machine (FSM) in Verilog HDL. It models realistic traffic control between a highway and a normal road, changing light states based on car detection and clock input.
